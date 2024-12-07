@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>login</h2>
+        <nav class ="navigation">
+            <a href="a">home</a>
+            <a href="a">about</a>
+            <a href="a">services</a>
+            <a href="a">contact</a>
+        
+        </nav>
+    </header>
+        
+        
+        
+    
+<div class="container"></div>
+
+    <div class="G-mail login-section" id="login-section">
+        <h2>G-mail Login</h2>
+        <form action="login.html" method="POST">
+            <br>
+        <label for="username">Username:</label></form>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required> 
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#" id="show-register">Register here</a></p>
+    </div>
+
+
+    <div class="register-section" id="register-section" style="display:none;">
+        <h2>Register</h2>
+        <form action="login.html" method="POST">
+            <label for="reg-username">Username:</label>
+            <input type="text" id="reg-username" name="reg-username" placeholder="Enter Username" required>
+<br>
+            <label for="reg-email">Email:</label>
+            <input type="email" id="reg-email" name="reg-email" placeholder="Enter Email" required>
+
+            <label for="reg-password">Password:</label>
+            <input type="password" id="reg-password" name="reg-password" placeholder="Enter Password" required>
+
+            <label for="reg-confirm-password">Confirm Password:</label>
+            <input type="password" id="reg-confirm-password" name="reg-confirm-password" placeholder="Confirm Password" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="#" id="show-login">Login here</a></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
